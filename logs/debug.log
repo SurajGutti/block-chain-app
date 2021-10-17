@@ -1,0 +1,778 @@
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks86400000?format=json HTTP/1.1" 404 None
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "block_chain_app.py", line 69, in get_block_data
+    raise ValueError('Getting Blocks data from API failed')
+ValueError: Getting Blocks data from API failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\aiohttp\web_protocol.py", line 422, in _handle_request
+    resp = await self._request_handler(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\aiohttp\web_app.py", line 499, in _handle
+    resp = await handler(request)
+  File "block_chain_app.py", line 73, in get_block_data
+    response={'status':-1,message:'There was an error processing your request'}
+NameError: name 'message' is not defined
+INFO:aiohttp.access:::1 [09/Oct/2021:16:41:41 +0000] "GET / HTTP/1.1" 500 340 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+INFO:aiohttp.access:::1 [09/Oct/2021:16:41:42 +0000] "GET /favicon.ico HTTP/1.1" 404 178 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks86400000?format=json HTTP/1.1" 404 None
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "block_chain_app.py", line 71, in get_block_data
+    raise ValueError('Getting Blocks data from API failed')
+ValueError: Getting Blocks data from API failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\aiohttp\web_protocol.py", line 422, in _handle_request
+    resp = await self._request_handler(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\aiohttp\web_app.py", line 499, in _handle
+    resp = await handler(request)
+  File "block_chain_app.py", line 75, in get_block_data
+    response={'status':-1,message:'There was an error processing your request'}
+NameError: name 'message' is not defined
+INFO:aiohttp.access:::1 [09/Oct/2021:16:42:33 +0000] "GET / HTTP/1.1" 500 340 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks86400000?format=json HTTP/1.1" 404 None
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "block_chain_app.py", line 71, in get_block_data
+    raise ValueError('Getting Blocks data from API failed')
+ValueError: Getting Blocks data from API failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\aiohttp\web_protocol.py", line 422, in _handle_request
+    resp = await self._request_handler(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\aiohttp\web_app.py", line 499, in _handle
+    resp = await handler(request)
+  File "block_chain_app.py", line 75, in get_block_data
+    response={'status':-1,message:'There was an error processing your request'}
+NameError: name 'message' is not defined
+INFO:aiohttp.access:::1 [09/Oct/2021:16:42:37 +0000] "GET / HTTP/1.1" 500 340 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using selector: SelectSelector
+INFO:aiohttp.access:::1 [09/Oct/2021:16:43:03 +0000] "GET / HTTP/1.1" 200 192 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks86400000?format=json HTTP/1.1" 404 None
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "block_chain_app.py", line 71, in get_block_data
+    raise ValueError('Getting Blocks data from API failed')
+ValueError: Getting Blocks data from API failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\aiohttp\web_protocol.py", line 422, in _handle_request
+    resp = await self._request_handler(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\aiohttp\web_app.py", line 499, in _handle
+    resp = await handler(request)
+  File "block_chain_app.py", line 75, in get_block_data
+    response={'status':-1,message:'There was an error processing your request'}
+NameError: name 'message' is not defined
+INFO:aiohttp.access:::1 [09/Oct/2021:16:43:17 +0000] "GET /block HTTP/1.1" 500 340 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/86400000?format=json HTTP/1.1" 200 None
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "block_chain_app.py", line 72, in get_block_data
+    response={'status':1,message:'Data request successful',data:resp.json()}
+NameError: name 'message' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\aiohttp\web_protocol.py", line 422, in _handle_request
+    resp = await self._request_handler(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\aiohttp\web_app.py", line 499, in _handle
+    resp = await handler(request)
+  File "block_chain_app.py", line 75, in get_block_data
+    response={'status':-1,message:'There was an error processing your request'}
+NameError: name 'message' is not defined
+INFO:aiohttp.access:::1 [09/Oct/2021:16:44:43 +0000] "GET /block HTTP/1.1" 500 340 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/86400000?format=json HTTP/1.1" 200 None
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "block_chain_app.py", line 72, in get_block_data
+    response={'status':1,message:'Data request successful',data:resp.json()}
+NameError: name 'message' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\aiohttp\web_protocol.py", line 422, in _handle_request
+    resp = await self._request_handler(request)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\aiohttp\web_app.py", line 499, in _handle
+    resp = await handler(request)
+  File "block_chain_app.py", line 75, in get_block_data
+    response={'status':-1,message:'There was an error processing your request'}
+NameError: name 'message' is not defined
+INFO:aiohttp.access:::1 [09/Oct/2021:16:44:44 +0000] "GET /block HTTP/1.1" 500 340 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/86400000?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [09/Oct/2021:16:45:20 +0000] "GET /block HTTP/1.1" 200 226 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/86400000?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [09/Oct/2021:16:48:14 +0000] "GET /block HTTP/1.1" 200 226 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1633711731225?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [09/Oct/2021:16:48:51 +0000] "GET /block HTTP/1.1" 200 17324 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1633712388978?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [09/Oct/2021:16:59:48 +0000] "GET /block HTTP/1.1" 200 17324 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:aiohttp.access:::1 [15/Oct/2021:18:40:04 +0000] "GET / HTTP/1.1" 200 192 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634236808435?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [15/Oct/2021:18:40:08 +0000] "GET /block HTTP/1.1" 200 21077 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634237443319?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [15/Oct/2021:18:50:43 +0000] "GET /block HTTP/1.1" 200 21216 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+INFO:aiohttp.access:::1 [15/Oct/2021:18:50:59 +0000] "GET / HTTP/1.1" 200 192 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634237462957?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [15/Oct/2021:18:51:02 +0000] "GET /block HTTP/1.1" 200 21216 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634237492868?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:127.0.0.1 [15/Oct/2021:18:51:32 +0000] "GET /block HTTP/1.1" 200 21096 "-" "axios/0.23.0"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634237530204?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [15/Oct/2021:18:52:10 +0000] "GET /block HTTP/1.1" 200 21077 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634237530662?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [15/Oct/2021:18:52:10 +0000] "GET /block HTTP/1.1" 200 21077 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634237893705?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [15/Oct/2021:18:58:13 +0000] "GET /block HTTP/1.1" 200 21077 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634237894288?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [15/Oct/2021:18:58:14 +0000] "GET /block HTTP/1.1" 200 21077 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634237930762?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [15/Oct/2021:18:58:50 +0000] "GET /block HTTP/1.1" 200 21077 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634238246082?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [15/Oct/2021:19:04:06 +0000] "GET /block HTTP/1.1" 200 21077 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634238246711?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [15/Oct/2021:19:04:06 +0000] "GET /block HTTP/1.1" 200 21077 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/00000000000000000003b9043491c9ff5fdb20d9d90de3d2a546c1658518762e HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [15/Oct/2021:19:04:10 +0000] "GET /block/00000000000000000003b9043491c9ff5fdb20d9d90de3d2a546c1658518762e HTTP/1.1" 200 6800569 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634238263845?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [15/Oct/2021:19:04:23 +0000] "GET /block HTTP/1.1" 200 21077 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/00000000000000000000b0a9f71aa1291e009ae81fb0b243bb8915976949a3c8 HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [15/Oct/2021:19:04:25 +0000] "GET /block/00000000000000000000b0a9f71aa1291e009ae81fb0b243bb8915976949a3c8 HTTP/1.1" 200 7568496 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634238275481?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [15/Oct/2021:19:04:35 +0000] "GET /block HTTP/1.1" 200 21077 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+INFO:aiohttp.access:::1 [15/Oct/2021:19:04:37 +0000] "GET /block/00000000000000000000b0a9f71aa1291e009ae81fb0b243bb8915976949a3c8 HTTP/1.1" 200 7568496 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634238279741?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [15/Oct/2021:19:04:39 +0000] "GET /block HTTP/1.1" 200 21077 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/0000000000000000000bf943380c0ea90610e40b8c19ed2c30ecee553e9b0d44 HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [15/Oct/2021:19:04:41 +0000] "GET /block/0000000000000000000bf943380c0ea90610e40b8c19ed2c30ecee553e9b0d44 HTTP/1.1" 200 7156906 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634238531829?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [15/Oct/2021:19:08:51 +0000] "GET /block HTTP/1.1" 200 21077 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:aiohttp.access:::1 [15/Oct/2021:21:41:44 +0000] "GET / HTTP/1.1" 200 192 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+INFO:aiohttp.access:::1 [15/Oct/2021:21:41:44 +0000] "GET /favicon.ico HTTP/1.1" 404 178 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634247854645?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [15/Oct/2021:21:44:14 +0000] "GET /block HTTP/1.1" 200 18853 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634247855472?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [15/Oct/2021:21:44:15 +0000] "GET /block HTTP/1.1" 200 18853 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/0000000000000000000ba821876ebee8c4297a3cdc9b719201f1206078583a49 HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [15/Oct/2021:21:44:24 +0000] "GET /block/0000000000000000000ba821876ebee8c4297a3cdc9b719201f1206078583a49 HTTP/1.1" 200 7030530 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634247960229?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [15/Oct/2021:21:46:00 +0000] "GET /block HTTP/1.1" 200 18853 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634247960778?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [15/Oct/2021:21:46:00 +0000] "GET /block HTTP/1.1" 200 18853 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634256306463?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [16/Oct/2021:00:05:06 +0000] "GET /block HTTP/1.1" 200 19409 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634256307486?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [16/Oct/2021:00:05:07 +0000] "GET /block HTTP/1.1" 200 19409 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/00000000000000000009b19ab4a3dab93c92c546a90fab9d6824efc2f576b044 HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [16/Oct/2021:00:10:53 +0000] "GET /block/00000000000000000009b19ab4a3dab93c92c546a90fab9d6824efc2f576b044 HTTP/1.1" 200 5044962 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634256663829?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [16/Oct/2021:00:11:03 +0000] "GET /block HTTP/1.1" 200 19270 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/0000000000000000000be30f98022931c6546779f5ed1d89d6b2577e00e8a327 HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [16/Oct/2021:00:19:40 +0000] "GET /block/0000000000000000000be30f98022931c6546779f5ed1d89d6b2577e00e8a327 HTTP/1.1" 200 5648821 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634257190708?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [16/Oct/2021:00:19:50 +0000] "GET /block HTTP/1.1" 200 19409 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/0000000000000000000b5d2d41044d80abebcfa983986346cd2dc96cb28f09c9 HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [16/Oct/2021:00:20:50 +0000] "GET /block/0000000000000000000b5d2d41044d80abebcfa983986346cd2dc96cb28f09c9 HTTP/1.1" 200 6891533 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634258044020?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [16/Oct/2021:00:34:04 +0000] "GET /block HTTP/1.1" 200 19270 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/000000000000000000091cb395bb506ae7e47ff1446005cbe538aef99c92e725 HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [16/Oct/2021:00:34:07 +0000] "GET /block/000000000000000000091cb395bb506ae7e47ff1446005cbe538aef99c92e725 HTTP/1.1" 200 7734732 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634258149401?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [16/Oct/2021:00:35:49 +0000] "GET /block HTTP/1.1" 200 19409 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/00000000000000000006a5c6960c04c97a6a79dfd6ccc8068feb7b1d143c55a5 HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [16/Oct/2021:00:35:55 +0000] "GET /block/00000000000000000006a5c6960c04c97a6a79dfd6ccc8068feb7b1d143c55a5 HTTP/1.1" 200 5319873 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634258159251?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [16/Oct/2021:00:35:59 +0000] "GET /block HTTP/1.1" 200 19409 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634351616205?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:02:33:36 +0000] "GET /block HTTP/1.1" 200 20382 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634351616998?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:02:33:36 +0000] "GET /block HTTP/1.1" 200 20382 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/00000000000000000002863ea517bcaf3cbb7a1eb6a3f6a1c807879e07f7a1b0 HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:02:33:41 +0000] "GET /block/00000000000000000002863ea517bcaf3cbb7a1eb6a3f6a1c807879e07f7a1b0 HTTP/1.1" 200 6078266 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634351628597?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:02:33:48 +0000] "GET /block HTTP/1.1" 200 20382 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+INFO:aiohttp.access:::1 [17/Oct/2021:02:33:52 +0000] "GET /block/00000000000000000002863ea517bcaf3cbb7a1eb6a3f6a1c807879e07f7a1b0 HTTP/1.1" 200 6078266 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634352009660?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:02:40:09 +0000] "GET /block HTTP/1.1" 200 20521 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/0000000000000000000bc57f456cd141362db0ad37e29f098d87c4eaf9f4ab26 HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:02:40:12 +0000] "GET /block/0000000000000000000bc57f456cd141362db0ad37e29f098d87c4eaf9f4ab26 HTTP/1.1" 200 6472794 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634398903313?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:15:41:43 +0000] "GET /block HTTP/1.1" 200 18992 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+INFO:aiohttp.access:::1 [17/Oct/2021:15:41:44 +0000] "GET /favicon.ico HTTP/1.1" 404 178 "http://localhost:5000/block" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634399060240?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:15:44:20 +0000] "GET /block HTTP/1.1" 200 19131 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634399061024?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:15:44:21 +0000] "GET /block HTTP/1.1" 200 19131 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:aiohttp.access:::1 [17/Oct/2021:16:42:42 +0000] "GET / HTTP/1.1" 200 192 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "D:\GitHub\Coding\Suraj-Gutti-Coding-Challenge\block_chain_app\block_chain_app.py", line 83, in get_block_data
+    data = db.search(CACHE_DATA.timestamp == time_stamp)
+NameError: name 'db' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\Python39\lib\site-packages\aiohttp\web_protocol.py", line 422, in _handle_request
+    resp = await self._request_handler(request)
+  File "C:\Python\Python39\lib\site-packages\aiohttp\web_app.py", line 499, in _handle
+    resp = await handler(request)
+  File "D:\GitHub\Coding\Suraj-Gutti-Coding-Challenge\block_chain_app\block_chain_app.py", line 94, in get_block_data
+    response={'status':-1,'message':'There was an error processing your request','data':data}
+UnboundLocalError: local variable 'data' referenced before assignment
+INFO:aiohttp.access:::1 [17/Oct/2021:16:42:48 +0000] "GET /block HTTP/1.1" 500 340 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:aiohttp.access:::1 [17/Oct/2021:16:44:31 +0000] "GET / HTTP/1.1" 200 192 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634402677329?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:16:44:37 +0000] "GET /block HTTP/1.1" 200 18714 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634402691543?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:16:44:51 +0000] "GET /block HTTP/1.1" 200 18714 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "D:\GitHub\Coding\Suraj-Gutti-Coding-Challenge\block_chain_app\block_chain_app.py", line 83, in get_block_data
+    if not data:
+UnboundLocalError: local variable 'data' referenced before assignment
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\Python39\lib\site-packages\aiohttp\web_protocol.py", line 422, in _handle_request
+    resp = await self._request_handler(request)
+  File "C:\Python\Python39\lib\site-packages\aiohttp\web_app.py", line 499, in _handle
+    resp = await handler(request)
+  File "D:\GitHub\Coding\Suraj-Gutti-Coding-Challenge\block_chain_app\block_chain_app.py", line 91, in get_block_data
+    response={'status':-1,'message':'There was an error processing your request','data':data}
+UnboundLocalError: local variable 'data' referenced before assignment
+INFO:aiohttp.access:::1 [17/Oct/2021:16:56:54 +0000] "GET /block HTTP/1.1" 500 340 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634403441583?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:16:57:21 +0000] "GET /block HTTP/1.1" 200 18575 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634403455090?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:16:57:35 +0000] "GET /block HTTP/1.1" 200 18575 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/hash HTTP/1.1" 404 None
+INFO:aiohttp.access:::1 [17/Oct/2021:16:57:47 +0000] "GET /block/hash HTTP/1.1" 200 246 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/00000000000000000000da0748e6469ed36bf94954ea477ce756f50621cafd3a HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:16:57:49 +0000] "GET /block/00000000000000000000da0748e6469ed36bf94954ea477ce756f50621cafd3a HTTP/1.1" 200 6560227 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634403891546?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:17:04:51 +0000] "GET /block HTTP/1.1" 200 18436 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634403916673?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:17:05:16 +0000] "GET /block HTTP/1.1" 200 18436 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/hash HTTP/1.1" 404 None
+INFO:aiohttp.access:::1 [17/Oct/2021:17:05:32 +0000] "GET /block/hash HTTP/1.1" 200 246 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/00000000000000000008b5cc35b47b79b16927259cd9919c34d7bca9f1250609 HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:17:05:45 +0000] "GET /block/00000000000000000008b5cc35b47b79b16927259cd9919c34d7bca9f1250609 HTTP/1.1" 200 6885478 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634404143524?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:17:09:03 +0000] "GET /block HTTP/1.1" 200 18436 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "D:\GitHub\Coding\Suraj-Gutti-Coding-Challenge\block_chain_app\block_chain_app.py", line 102, in get_block_details
+    data = cache.search(CACHE_QUERY.block == blockId)
+  File "C:\Python\Python39\lib\site-packages\tinydb\table.py", line 233, in search
+    docs = [doc for doc in self if cond(doc)]
+  File "C:\Python\Python39\lib\site-packages\tinydb\table.py", line 233, in <listcomp>
+    docs = [doc for doc in self if cond(doc)]
+  File "C:\Python\Python39\lib\site-packages\tinydb\table.py", line 603, in __iter__
+    for doc_id, doc in self._read_table().items():
+  File "C:\Python\Python39\lib\site-packages\tinydb\table.py", line 668, in _read_table
+    return {
+  File "C:\Python\Python39\lib\site-packages\tinydb\table.py", line 669, in <dictcomp>
+    self.document_id_class(doc_id): doc
+ValueError: invalid literal for int() with base 10: '00000000000000000008b5cc35b47b79b16927259cd9919c34d7bca9f1250609'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\Python39\lib\site-packages\aiohttp\web_protocol.py", line 422, in _handle_request
+    resp = await self._request_handler(request)
+  File "C:\Python\Python39\lib\site-packages\aiohttp\web_app.py", line 499, in _handle
+    resp = await handler(request)
+  File "D:\GitHub\Coding\Suraj-Gutti-Coding-Challenge\block_chain_app\block_chain_app.py", line 116, in get_block_details
+    response={'status':-1,'message':'There was an error processing your request','data':data}
+UnboundLocalError: local variable 'data' referenced before assignment
+INFO:aiohttp.access:::1 [17/Oct/2021:17:09:10 +0000] "GET /block/00000000000000000008b5cc35b47b79b16927259cd9919c34d7bca9f1250609 HTTP/1.1" 500 340 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "D:\GitHub\Coding\Suraj-Gutti-Coding-Challenge\block_chain_app\block_chain_app.py", line 103, in get_block_details
+    data = cache.search(CACHE_QUERY.block == blockId)
+  File "C:\Python\Python39\lib\site-packages\tinydb\table.py", line 233, in search
+    docs = [doc for doc in self if cond(doc)]
+  File "C:\Python\Python39\lib\site-packages\tinydb\table.py", line 233, in <listcomp>
+    docs = [doc for doc in self if cond(doc)]
+  File "C:\Python\Python39\lib\site-packages\tinydb\table.py", line 603, in __iter__
+    for doc_id, doc in self._read_table().items():
+  File "C:\Python\Python39\lib\site-packages\tinydb\table.py", line 668, in _read_table
+    return {
+  File "C:\Python\Python39\lib\site-packages\tinydb\table.py", line 669, in <dictcomp>
+    self.document_id_class(doc_id): doc
+ValueError: invalid literal for int() with base 10: '00000000000000000008b5cc35b47b79b16927259cd9919c34d7bca9f1250609'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\Python39\lib\site-packages\aiohttp\web_protocol.py", line 422, in _handle_request
+    resp = await self._request_handler(request)
+  File "C:\Python\Python39\lib\site-packages\aiohttp\web_app.py", line 499, in _handle
+    resp = await handler(request)
+  File "D:\GitHub\Coding\Suraj-Gutti-Coding-Challenge\block_chain_app\block_chain_app.py", line 117, in get_block_details
+    response={'status':-1,'message':'There was an error processing your request','data':data}
+UnboundLocalError: local variable 'data' referenced before assignment
+INFO:aiohttp.access:::1 [17/Oct/2021:17:14:21 +0000] "GET /block/00000000000000000008b5cc35b47b79b16927259cd9919c34d7bca9f1250609 HTTP/1.1" 500 340 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "D:\GitHub\Coding\Suraj-Gutti-Coding-Challenge\block_chain_app\block_chain_app.py", line 103, in get_block_details
+    data = cache.search(CACHE_QUERY.block == int(float(blockId)))
+ValueError: could not convert string to float: '00000000000000000008b5cc35b47b79b16927259cd9919c34d7bca9f1250609'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\Python39\lib\site-packages\aiohttp\web_protocol.py", line 422, in _handle_request
+    resp = await self._request_handler(request)
+  File "C:\Python\Python39\lib\site-packages\aiohttp\web_app.py", line 499, in _handle
+    resp = await handler(request)
+  File "D:\GitHub\Coding\Suraj-Gutti-Coding-Challenge\block_chain_app\block_chain_app.py", line 117, in get_block_details
+    response={'status':-1,'message':'There was an error processing your request','data':data}
+UnboundLocalError: local variable 'data' referenced before assignment
+INFO:aiohttp.access:::1 [17/Oct/2021:17:15:32 +0000] "GET /block/00000000000000000008b5cc35b47b79b16927259cd9919c34d7bca9f1250609 HTTP/1.1" 500 340 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "D:\GitHub\Coding\Suraj-Gutti-Coding-Challenge\block_chain_app\block_chain_app.py", line 103, in get_block_details
+    data = cache.search(CACHE_QUERY.block == int(blockId))
+ValueError: invalid literal for int() with base 10: '00000000000000000008b5cc35b47b79b16927259cd9919c34d7bca9f1250609'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\Python39\lib\site-packages\aiohttp\web_protocol.py", line 422, in _handle_request
+    resp = await self._request_handler(request)
+  File "C:\Python\Python39\lib\site-packages\aiohttp\web_app.py", line 499, in _handle
+    resp = await handler(request)
+  File "D:\GitHub\Coding\Suraj-Gutti-Coding-Challenge\block_chain_app\block_chain_app.py", line 117, in get_block_details
+    response={'status':-1,'message':'There was an error processing your request','data':data}
+UnboundLocalError: local variable 'data' referenced before assignment
+INFO:aiohttp.access:::1 [17/Oct/2021:17:16:01 +0000] "GET /block/00000000000000000008b5cc35b47b79b16927259cd9919c34d7bca9f1250609 HTTP/1.1" 500 340 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "D:\GitHub\Coding\Suraj-Gutti-Coding-Challenge\block_chain_app\block_chain_app.py", line 103, in get_block_details
+    data = cache.search(CACHE_QUERY.block == str(blockId))
+  File "C:\Python\Python39\lib\site-packages\tinydb\table.py", line 233, in search
+    docs = [doc for doc in self if cond(doc)]
+  File "C:\Python\Python39\lib\site-packages\tinydb\table.py", line 233, in <listcomp>
+    docs = [doc for doc in self if cond(doc)]
+  File "C:\Python\Python39\lib\site-packages\tinydb\table.py", line 603, in __iter__
+    for doc_id, doc in self._read_table().items():
+  File "C:\Python\Python39\lib\site-packages\tinydb\table.py", line 668, in _read_table
+    return {
+  File "C:\Python\Python39\lib\site-packages\tinydb\table.py", line 669, in <dictcomp>
+    self.document_id_class(doc_id): doc
+ValueError: invalid literal for int() with base 10: '00000000000000000008b5cc35b47b79b16927259cd9919c34d7bca9f1250609'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\Python39\lib\site-packages\aiohttp\web_protocol.py", line 422, in _handle_request
+    resp = await self._request_handler(request)
+  File "C:\Python\Python39\lib\site-packages\aiohttp\web_app.py", line 499, in _handle
+    resp = await handler(request)
+  File "D:\GitHub\Coding\Suraj-Gutti-Coding-Challenge\block_chain_app\block_chain_app.py", line 117, in get_block_details
+    response={'status':-1,'message':'There was an error processing your request','data':data}
+UnboundLocalError: local variable 'data' referenced before assignment
+INFO:aiohttp.access:::1 [17/Oct/2021:17:17:26 +0000] "GET /block/00000000000000000008b5cc35b47b79b16927259cd9919c34d7bca9f1250609 HTTP/1.1" 500 340 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634404746107?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:17:19:06 +0000] "GET /block HTTP/1.1" 200 18436 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "D:\GitHub\Coding\Suraj-Gutti-Coding-Challenge\block_chain_app\block_chain_app.py", line 103, in get_block_details
+    data = cache.search(CACHE_QUERY.block == str(blockId))
+  File "C:\Python\Python39\lib\site-packages\tinydb\table.py", line 233, in search
+    docs = [doc for doc in self if cond(doc)]
+  File "C:\Python\Python39\lib\site-packages\tinydb\table.py", line 233, in <listcomp>
+    docs = [doc for doc in self if cond(doc)]
+  File "C:\Python\Python39\lib\site-packages\tinydb\table.py", line 603, in __iter__
+    for doc_id, doc in self._read_table().items():
+  File "C:\Python\Python39\lib\site-packages\tinydb\table.py", line 668, in _read_table
+    return {
+  File "C:\Python\Python39\lib\site-packages\tinydb\table.py", line 669, in <dictcomp>
+    self.document_id_class(doc_id): doc
+ValueError: invalid literal for int() with base 10: '00000000000000000008b5cc35b47b79b16927259cd9919c34d7bca9f1250609'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\Python39\lib\site-packages\aiohttp\web_protocol.py", line 422, in _handle_request
+    resp = await self._request_handler(request)
+  File "C:\Python\Python39\lib\site-packages\aiohttp\web_app.py", line 499, in _handle
+    resp = await handler(request)
+  File "D:\GitHub\Coding\Suraj-Gutti-Coding-Challenge\block_chain_app\block_chain_app.py", line 117, in get_block_details
+    response={'status':-1,'message':'There was an error processing your request','data':data}
+UnboundLocalError: local variable 'data' referenced before assignment
+INFO:aiohttp.access:::1 [17/Oct/2021:17:19:17 +0000] "GET /block/0000000000000000000680a4149e43f112398222962375a310e302f54b03e072 HTTP/1.1" 500 340 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "D:\GitHub\Coding\Suraj-Gutti-Coding-Challenge\block_chain_app\block_chain_app.py", line 104, in get_block_details
+    if not data:
+UnboundLocalError: local variable 'data' referenced before assignment
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\Python39\lib\site-packages\aiohttp\web_protocol.py", line 422, in _handle_request
+    resp = await self._request_handler(request)
+  File "C:\Python\Python39\lib\site-packages\aiohttp\web_app.py", line 499, in _handle
+    resp = await handler(request)
+  File "D:\GitHub\Coding\Suraj-Gutti-Coding-Challenge\block_chain_app\block_chain_app.py", line 117, in get_block_details
+    response={'status':-1,'message':'There was an error processing your request','data':data}
+UnboundLocalError: local variable 'data' referenced before assignment
+INFO:aiohttp.access:::1 [17/Oct/2021:17:20:11 +0000] "GET /block/0000000000000000000680a4149e43f112398222962375a310e302f54b03e072 HTTP/1.1" 500 340 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/0000000000000000000680a4149e43f112398222962375a310e302f54b03e072 HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:17:21:06 +0000] "GET /block/0000000000000000000680a4149e43f112398222962375a310e302f54b03e072 HTTP/1.1" 200 6386332 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/00000000000000000008b5cc35b47b79b16927259cd9919c34d7bca9f1250609 HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:17:23:43 +0000] "GET /block/00000000000000000008b5cc35b47b79b16927259cd9919c34d7bca9f1250609 HTTP/1.1" 200 6885816 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/00000000000000000008aba885f78104a2acf1abba33a5aa0ca3f2dcf7d57c30 HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:17:24:54 +0000] "GET /block/00000000000000000008aba885f78104a2acf1abba33a5aa0ca3f2dcf7d57c30 HTTP/1.1" 200 990446 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/00000000000000000008aba885f78104a2acf1abba33a5aa0ca3f2dcf7d57c30 HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:17:26:04 +0000] "GET /block/00000000000000000008aba885f78104a2acf1abba33a5aa0ca3f2dcf7d57c30 HTTP/1.1" 200 990466 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/00000000000000000008aba885f78104a2acf1abba33a5aa0ca3f2dcf7d57c30 HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:17:27:32 +0000] "GET /block/00000000000000000008aba885f78104a2acf1abba33a5aa0ca3f2dcf7d57c30 HTTP/1.1" 200 990466 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/00000000000000000000da0748e6469ed36bf94954ea477ce756f50621cafd3a HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:17:30:03 +0000] "GET /block/00000000000000000000da0748e6469ed36bf94954ea477ce756f50621cafd3a HTTP/1.1" 200 6561224 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/00000000000000000000da0748e6469ed36bf94954ea477ce756f50621cafd3a HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:17:30:38 +0000] "GET /block/00000000000000000000da0748e6469ed36bf94954ea477ce756f50621cafd3a HTTP/1.1" 200 6561224 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/00000000000000000000da0748e6469ed36bf94954ea477ce756f50621cafd3a HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:17:31:10 +0000] "GET /block/00000000000000000000da0748e6469ed36bf94954ea477ce756f50621cafd3a HTTP/1.1" 200 6561204 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/00000000000000000000da0748e6469ed36bf94954ea477ce756f50621cafd3a HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:17:34:15 +0000] "GET /block/00000000000000000000da0748e6469ed36bf94954ea477ce756f50621cafd3a HTTP/1.1" 200 6561224 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/00000000000000000000da0748e6469ed36bf94954ea477ce756f50621cafd3a HTTP/1.1" 200 None
+INFO:aiohttp.access:127.0.0.1 [17/Oct/2021:17:35:58 +0000] "GET /block/00000000000000000000da0748e6469ed36bf94954ea477ce756f50621cafd3a HTTP/1.1" 200 6561204 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/00000000000000000000da0748e6469ed36bf94954ea477ce756f50621cafd3a HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:17:46:37 +0000] "GET /block/00000000000000000000da0748e6469ed36bf94954ea477ce756f50621cafd3a HTTP/1.1" 200 6561352 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:aiohttp.access:::1 [17/Oct/2021:17:48:01 +0000] "GET /block/00000000000000000000da0748e6469ed36bf94954ea477ce756f50621cafd3a HTTP/1.1" 200 6561354 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634406516703?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:17:48:36 +0000] "GET /block HTTP/1.1" 200 18575 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/00000000000000000009ed26c6a4b5d174aa84754cff5d609e4504f7fb2d19f3 HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:17:48:45 +0000] "GET /block/00000000000000000009ed26c6a4b5d174aa84754cff5d609e4504f7fb2d19f3 HTTP/1.1" 200 7026065 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/000000000000000000074e17a771a8baeb6a443c21060e58cfa41dc8b376f692 HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:17:49:05 +0000] "GET /block/000000000000000000074e17a771a8baeb6a443c21060e58cfa41dc8b376f692 HTTP/1.1" 200 6604082 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+INFO:aiohttp.access:::1 [17/Oct/2021:17:50:12 +0000] "GET /block/000000000000000000074e17a771a8baeb6a443c21060e58cfa41dc8b376f692 HTTP/1.1" 200 6604084 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634406642990?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:17:50:42 +0000] "GET /block HTTP/1.1" 200 18575 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634406643651?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:17:50:43 +0000] "GET /block HTTP/1.1" 200 18575 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/00000000000000000003f7fc0d0f8eacde848125617e8d89dbe3911ccc6c26a4 HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:17:52:10 +0000] "GET /block/00000000000000000003f7fc0d0f8eacde848125617e8d89dbe3911ccc6c26a4 HTTP/1.1" 200 7431290 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634406743269?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:17:52:23 +0000] "GET /block HTTP/1.1" 200 18575 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+INFO:aiohttp.access:::1 [17/Oct/2021:17:52:28 +0000] "GET /block/00000000000000000003f7fc0d0f8eacde848125617e8d89dbe3911ccc6c26a4 HTTP/1.1" 200 7431292 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634406780069?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:17:53:00 +0000] "GET /block HTTP/1.1" 200 18575 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+INFO:aiohttp.access:::1 [17/Oct/2021:17:53:03 +0000] "GET /block/00000000000000000003f7fc0d0f8eacde848125617e8d89dbe3911ccc6c26a4 HTTP/1.1" 200 7431292 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634406888616?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:17:54:48 +0000] "GET /block HTTP/1.1" 200 18575 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/0000000000000000000cc3adcb69b1cbb36267271b1f58c46fa3d672e5f3309f HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:17:54:52 +0000] "GET /block/0000000000000000000cc3adcb69b1cbb36267271b1f58c46fa3d672e5f3309f HTTP/1.1" 200 7811581 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634406997235?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:17:56:37 +0000] "GET /block HTTP/1.1" 200 18714 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634406997696?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:17:56:37 +0000] "GET /block HTTP/1.1" 200 18714 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+INFO:aiohttp.access:::1 [17/Oct/2021:17:56:46 +0000] "GET /block/00000000000000000003f7fc0d0f8eacde848125617e8d89dbe3911ccc6c26a4 HTTP/1.1" 200 7431292 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634407248901?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:18:00:48 +0000] "GET /block HTTP/1.1" 200 18853 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634407249429?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:18:00:49 +0000] "GET /block HTTP/1.1" 200 18853 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+INFO:aiohttp.access:::1 [17/Oct/2021:18:00:52 +0000] "GET /block/00000000000000000003f7fc0d0f8eacde848125617e8d89dbe3911ccc6c26a4 HTTP/1.1" 200 7431292 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+INFO:aiohttp.access:::1 [17/Oct/2021:18:01:52 +0000] "GET /block/00000000000000000003f7fc0d0f8eacde848125617e8d89dbe3911ccc6c26a4 HTTP/1.1" 200 7431292 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634407324010?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:18:02:04 +0000] "GET /block HTTP/1.1" 200 18853 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+INFO:aiohttp.access:::1 [17/Oct/2021:18:02:04 +0000] "GET /block/00000000000000000003f7fc0d0f8eacde848125617e8d89dbe3911ccc6c26a4 HTTP/1.1" 200 7431292 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+INFO:aiohttp.access:::1 [17/Oct/2021:18:03:12 +0000] "GET /block/00000000000000000003f7fc0d0f8eacde848125617e8d89dbe3911ccc6c26a4 HTTP/1.1" 200 7431292 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634407396453?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:18:03:16 +0000] "GET /block HTTP/1.1" 200 18853 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+INFO:aiohttp.access:::1 [17/Oct/2021:18:03:16 +0000] "GET /block/00000000000000000003f7fc0d0f8eacde848125617e8d89dbe3911ccc6c26a4 HTTP/1.1" 200 7431292 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634407415978?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:18:03:35 +0000] "GET /block HTTP/1.1" 200 18992 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634407416459?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:18:03:36 +0000] "GET /block HTTP/1.1" 200 18992 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+INFO:aiohttp.access:::1 [17/Oct/2021:18:03:39 +0000] "GET /block/00000000000000000003f7fc0d0f8eacde848125617e8d89dbe3911ccc6c26a4 HTTP/1.1" 200 7431292 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634407544340?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:18:05:44 +0000] "GET /block HTTP/1.1" 200 18992 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634407545057?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:18:05:45 +0000] "GET /block HTTP/1.1" 200 18992 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+INFO:aiohttp.access:::1 [17/Oct/2021:18:05:47 +0000] "GET /block/00000000000000000003f7fc0d0f8eacde848125617e8d89dbe3911ccc6c26a4 HTTP/1.1" 200 7431292 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634407734082?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:18:08:54 +0000] "GET /block HTTP/1.1" 200 18992 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634407734602?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:18:08:54 +0000] "GET /block HTTP/1.1" 200 18992 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+INFO:aiohttp.access:::1 [17/Oct/2021:18:08:57 +0000] "GET /block/00000000000000000003f7fc0d0f8eacde848125617e8d89dbe3911ccc6c26a4 HTTP/1.1" 200 7431292 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634407744933?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:18:09:04 +0000] "GET /block HTTP/1.1" 200 18992 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/0000000000000000000982121fea9d9f85fa0b98cddda4b858663d4eda73719a HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:18:09:06 +0000] "GET /block/0000000000000000000982121fea9d9f85fa0b98cddda4b858663d4eda73719a HTTP/1.1" 200 4252030 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634407770798?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:18:09:30 +0000] "GET /block HTTP/1.1" 200 18992 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+INFO:aiohttp.access:::1 [17/Oct/2021:18:09:32 +0000] "GET /block/0000000000000000000982121fea9d9f85fa0b98cddda4b858663d4eda73719a HTTP/1.1" 200 4252032 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/00000000000000000008b5cc35b47b79b16927259cd9919c34d7bca9f1250609 HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:18:14:50 +0000] "GET /block/00000000000000000008b5cc35b47b79b16927259cd9919c34d7bca9f1250609 HTTP/1.1" 200 6886859 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+INFO:aiohttp.access:127.0.0.1 [17/Oct/2021:18:15:08 +0000] "GET /block/0000000000000000000982121fea9d9f85fa0b98cddda4b858663d4eda73719a HTTP/1.1" 200 4252051 "-" "axios/0.23.0"
+INFO:aiohttp.access:127.0.0.1 [17/Oct/2021:18:16:35 +0000] "GET /block/0000000000000000000982121fea9d9f85fa0b98cddda4b858663d4eda73719a HTTP/1.1" 200 4252051 "-" "axios/0.23.0"
+INFO:aiohttp.access:127.0.0.1 [17/Oct/2021:18:17:14 +0000] "GET /block/0000000000000000000982121fea9d9f85fa0b98cddda4b858663d4eda73719a HTTP/1.1" 200 4252051 "-" "axios/0.23.0"
+INFO:aiohttp.access:127.0.0.1 [17/Oct/2021:18:19:03 +0000] "GET /block/0000000000000000000982121fea9d9f85fa0b98cddda4b858663d4eda73719a HTTP/1.1" 200 4252051 "-" "axios/0.23.0"
+INFO:aiohttp.access:127.0.0.1 [17/Oct/2021:18:19:58 +0000] "GET /block/0000000000000000000982121fea9d9f85fa0b98cddda4b858663d4eda73719a HTTP/1.1" 200 4252051 "-" "axios/0.23.0"
+INFO:aiohttp.access:127.0.0.1 [17/Oct/2021:18:20:55 +0000] "GET /block/0000000000000000000982121fea9d9f85fa0b98cddda4b858663d4eda73719a HTTP/1.1" 200 4252051 "-" "axios/0.23.0"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634408501612?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:18:21:41 +0000] "GET /block HTTP/1.1" 200 19270 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+INFO:aiohttp.access:::1 [17/Oct/2021:18:21:45 +0000] "GET /block/00000000000000000003f7fc0d0f8eacde848125617e8d89dbe3911ccc6c26a4 HTTP/1.1" 200 7431292 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634408511269?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:18:21:51 +0000] "GET /block HTTP/1.1" 200 19270 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/00000000000000000000d42ced341ce3a440d4185b0826c27472b4e74ee0a138 HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:18:21:53 +0000] "GET /block/00000000000000000000d42ced341ce3a440d4185b0826c27472b4e74ee0a138 HTTP/1.1" 200 2662865 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634408521805?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:18:22:01 +0000] "GET /block HTTP/1.1" 200 19270 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+INFO:aiohttp.access:::1 [17/Oct/2021:18:22:03 +0000] "GET /block/00000000000000000000d42ced341ce3a440d4185b0826c27472b4e74ee0a138 HTTP/1.1" 200 2662867 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634408538889?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:18:22:18 +0000] "GET /block HTTP/1.1" 200 19270 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:aiohttp.access:127.0.0.1 [17/Oct/2021:18:39:42 +0000] "GET / HTTP/1.1" 200 192 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634410495877?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:18:54:55 +0000] "GET /block HTTP/1.1" 200 19131 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+INFO:aiohttp.access:::1 [17/Oct/2021:18:55:05 +0000] "GET /block/00000000000000000000d42ced341ce3a440d4185b0826c27472b4e74ee0a138 HTTP/1.1" 200 2662867 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634410509742?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:18:55:09 +0000] "GET /block HTTP/1.1" 200 19131 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/0000000000000000000037576a828dcabb90ea4f156e5e56dc6fe1b750213ec5 HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:18:55:12 +0000] "GET /block/0000000000000000000037576a828dcabb90ea4f156e5e56dc6fe1b750213ec5 HTTP/1.1" 200 7046572 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634410525465?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:18:55:25 +0000] "GET /block HTTP/1.1" 200 19131 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/0000000000000000000999b1de2d010caa3c88e4639f37ec25b7764e068f216e HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:18:55:27 +0000] "GET /block/0000000000000000000999b1de2d010caa3c88e4639f37ec25b7764e068f216e HTTP/1.1" 200 6869856 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634410541807?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:18:55:41 +0000] "GET /block HTTP/1.1" 200 19131 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+INFO:aiohttp.access:::1 [17/Oct/2021:18:55:43 +0000] "GET /block/0000000000000000000999b1de2d010caa3c88e4639f37ec25b7764e068f216e HTTP/1.1" 200 6869858 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634410547641?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:18:55:47 +0000] "GET /block HTTP/1.1" 200 19131 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/00000000000000000007b8f6a0b6edd0c0f1bc0e38f7e38b9bf63d7bf9d7b7e8 HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:18:55:50 +0000] "GET /block/00000000000000000007b8f6a0b6edd0c0f1bc0e38f7e38b9bf63d7bf9d7b7e8 HTTP/1.1" 200 6567649 "http://localhost:4000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634410815954?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:19:00:15 +0000] "GET /block HTTP/1.1" 200 19131 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/0000000000000000000999b1de2d010caa3c88e4639f37ec25b7764e068f216e HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:19:00:25 +0000] "GET /block/0000000000000000000999b1de2d010caa3c88e4639f37ec25b7764e068f216e HTTP/1.1" 200 6869930 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634410919078?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:19:01:59 +0000] "GET /block HTTP/1.1" 200 19131 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/00000000000000000007b8f6a0b6edd0c0f1bc0e38f7e38b9bf63d7bf9d7b7e8 HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:19:02:01 +0000] "GET /block/00000000000000000007b8f6a0b6edd0c0f1bc0e38f7e38b9bf63d7bf9d7b7e8 HTTP/1.1" 200 6567952 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634410935602?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:19:02:15 +0000] "GET /block HTTP/1.1" 200 19131 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/0000000000000000000889204e9f011829642085184db0365bb345d78b415c84 HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:19:02:18 +0000] "GET /block/0000000000000000000889204e9f011829642085184db0365bb345d78b415c84 HTTP/1.1" 200 5523514 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634410946505?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:19:02:26 +0000] "GET /block HTTP/1.1" 200 19131 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+INFO:aiohttp.access:::1 [17/Oct/2021:19:02:28 +0000] "GET /block/0000000000000000000889204e9f011829642085184db0365bb345d78b415c84 HTTP/1.1" 200 5523516 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634411509873?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:19:11:49 +0000] "GET /block HTTP/1.1" 200 19270 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/0000000000000000000e04afe7b058aeb26ccfb34c1583c8b1e7b4c62d00da85 HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:19:11:52 +0000] "GET /block/0000000000000000000e04afe7b058aeb26ccfb34c1583c8b1e7b4c62d00da85 HTTP/1.1" 200 7147539 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634411533334?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:19:12:13 +0000] "GET /block HTTP/1.1" 200 19270 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+INFO:aiohttp.access:::1 [17/Oct/2021:19:12:24 +0000] "GET /block/0000000000000000000e04afe7b058aeb26ccfb34c1583c8b1e7b4c62d00da85 HTTP/1.1" 200 7147541 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634411547343?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:19:12:27 +0000] "GET /block HTTP/1.1" 200 19270 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/0000000000000000000d49bb4d8f183602f1433f921248495e22661dcda54c98 HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:19:12:28 +0000] "GET /block/0000000000000000000d49bb4d8f183602f1433f921248495e22661dcda54c98 HTTP/1.1" 200 7558456 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634411851020?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:19:17:31 +0000] "GET /block HTTP/1.1" 200 19270 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/0000000000000000000982121fea9d9f85fa0b98cddda4b858663d4eda73719a HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:19:17:34 +0000] "GET /block/0000000000000000000982121fea9d9f85fa0b98cddda4b858663d4eda73719a HTTP/1.1" 200 4252516 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634411862906?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:19:17:42 +0000] "GET /block HTTP/1.1" 200 19270 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+INFO:aiohttp.access:::1 [17/Oct/2021:19:17:44 +0000] "GET /block/0000000000000000000e04afe7b058aeb26ccfb34c1583c8b1e7b4c62d00da85 HTTP/1.1" 200 7147541 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /blocks/1634411868942?format=json HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:19:17:48 +0000] "GET /block HTTP/1.1" 200 19270 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): blockchain.info:443
+DEBUG:urllib3.connectionpool:https://blockchain.info:443 "GET /rawblock/0000000000000000000037576a828dcabb90ea4f156e5e56dc6fe1b750213ec5 HTTP/1.1" 200 None
+INFO:aiohttp.access:::1 [17/Oct/2021:19:17:51 +0000] "GET /block/0000000000000000000037576a828dcabb90ea4f156e5e56dc6fe1b750213ec5 HTTP/1.1" 200 7047025 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"

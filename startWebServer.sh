@@ -1,0 +1,1 @@
+gunicorn --bind 0.0.0.0:5050 block_chain_app:application --workers=2 --worker-class aiohttp.worker.GunicornWebWorker --timeout 100 --access-logfile logs/access.log --error-logfile logs/error.log --capture-output &
